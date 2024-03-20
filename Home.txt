@@ -1,0 +1,202 @@
+<html lang="en">
+<head>
+    <style>
+body {
+  font-family: 'Times New Roman Bold', sans-serif;
+}
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0%;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightblue;
+   color: black;
+   text-align: center;
+}
+section {
+    padding: 50px;
+}
+
+#intro h2,
+#benefits h2,
+#plan h2 {
+    color: #333;
+    text-align:center;
+}
+
+#benefits ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#plan .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#plan .btn:hover {
+    background-color: #555;
+}
+     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Business - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Places Around the World</h1>
+    </header>
+    <nav>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/europe-tour-packages">Europe</a>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/asia-tour-packages">Asia</a>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/north-america-tour-packages">North America</a>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/africa-tour-packages">Africa</a>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/australia-tour-packages">Australia</a>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/south-america-tour-packages">South America</a>
+    </nav>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="C:\Users\pcc\Desktop\assiment 1 web tech\Services.html">Services</a>
+    <a href="C:\Users\pcc\Desktop\assiment 1 web tech\activites.html">Activities</a>
+    <a href="C:\Users\pcc\Desktop\assiment 1 web tech\contact.html">Contact</a>
+    <a href="C:\Users\pcc\Desktop\assiment 1 web tech\loginpage.html">Login</a>
+    <a href="C:\Users\pcc\Desktop\assiment 1 web tech\Sign.in.html">Sign in</a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+<center>
+<section class="hero">
+        <h1>Welcome to the world of unseen beauty</h1>
+        <p>Explore the world with us!</p>
+        <img src="https://t3.ftcdn.net/jpg/02/24/30/42/360_F_224304285_0m4vwxG0BkDHaB4MHzSHK8Bw7idKVXcM.jpg" alt="world" width=50%>
+</section>
+</center>
+ <section id="intro">
+        <h2>Welcome to the World of Travel</h2>
+        <p>Traveling is more than just moving from one place to another; it's about experiencing the beauty, diversity, and wonder of our planet. It's a journey of self-discovery, cultural immersion, and lifelong memories.</p>
+        <p>At TravelWise, we believe that every journey is an opportunity to expand your horizons, challenge your perceptions, and connect with people and places in meaningful ways.</p>
+    </section>
+    <section id="benefits">
+        <h2>Benefits of Traveling</h2>
+        <ul>
+            <li><strong>Personal Growth:</strong> Traveling pushes you out of your comfort zone, helping you grow as an individual and gain new perspectives.</li>
+            <li><strong>Cultural Immersion:</strong> Explore different cultures, traditions, and cuisines, enriching your understanding of the world.</li>
+            <li><strong>Adventure and Exploration:</strong> Whether you're hiking through lush forests, snorkeling in crystal-clear waters, or wandering ancient streets, traveling is an adventure waiting to unfold.</li>
+            <li><strong>Relaxation and Stress Relief:</strong> Escape the hustle and bustle of daily life and rejuvenate your mind, body, and soul in breathtaking natural landscapes or tranquil retreats.</li>
+            <li><strong>Creating Memories:</strong> From awe-inspiring landmarks to spontaneous encounters, every moment spent traveling is a cherished memory in the making.</li>
+        </ul>
+    </section>
+    <section id="plan">
+        <h2>Start Planning Your Next Adventure</h2>
+        <p>Ready to embark on your next journey? Explore our curated collection of destinations, find inspiration, and let your wanderlust guide you. Whether you're dreaming of tropical paradises, cultural capitals, or off-the-beaten-path adventures, we're here to help you turn your travel dreams into reality.</p>
+        <a href="https://www.google.com/" class="btn">Explore Destinations</a>
+    </section>
+<section class="destinations">
+        <div class="destination">
+            <img src="C:\Users\pcc\Desktop\assiment 1 web tech\india.webp" alt="India" width=50%>
+            <h3><a href="https://www.thomascook.in/holidays/india-tour-packages">India</a></h3>
+        </div>
+        <div class="destination">
+            <img src="C:\Users\pcc\Desktop\assiment 1 web tech\internatonal.jpg" alt="International" width=50%>
+            <h3><a href="https://www.thomascook.in/holidays/international-tour-packages">International</a></h3>
+        </div>
+</section>
+<div class="footer">
+  <p>© 2024 Travel Business. All rights reserved</p>
+</div>
+</body>
+</html>
